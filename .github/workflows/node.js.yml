@@ -26,3 +26,11 @@ jobs:
                 dkdbody: ${{ secrets.dkdbody }}
                 sckey: ${{ secrets.sckey }}
                 dkdhd: ${{ secrets.dkdhd }}
+            # 账号2    
+            - run: node dkd_coin.js
+              env:
+                dkdurl: ${{ secrets.dkdurl }}
+                dkdbody: ${{ secrets.dkdbody2 }}
+                sckey: ${{ secrets.sckey }}
+                dkdhd: ${{ secrets.dkdhd2 }}
+
