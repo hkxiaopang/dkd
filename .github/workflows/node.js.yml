@@ -34,4 +34,4 @@ jobs:
                 dkdbody: ${{ secrets.dkdbody2 }}
                 sckey: ${{ secrets.sckey }}
                 dkdhd: ${{ secrets.dkdhd2 }}
-            - run: node dkd_coin.js --dkdurl=${dkdurl} --dkdbody=${dkdbody} --dkdhd=${dkdhd} --tryrun
+              run: node dkd_coin.js --dkdurl=${dkdurl} --dkdbody=${dkdbody} --dkdhd=${dkdhd} --tryrun
