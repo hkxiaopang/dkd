@@ -1,6 +1,6 @@
 #参照ruicky/jd_sign_bot
 
-name: Github dkd-auto-coin
+name: Github dkd-auto-coin-2
 on:
     push:
         branches:
